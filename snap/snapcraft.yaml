@@ -1,4 +1,4 @@
-name: ubuntu-frame-diagnostic
+name: frame-diagnostic
 version: '0.1'
 summary: example diagnostic
 description: Demo of Ubuntu Frame's diagnostic
@@ -22,7 +22,7 @@ environment:
   DIAGNOSTIC_FILE: $SNAP_COMMON/diagnostic/diagnostic.txt
 
 apps:
-  ubuntu-frame-diagnostic:
+  frame-diagnostic:
     command: write-diagnostic
 
 parts:
