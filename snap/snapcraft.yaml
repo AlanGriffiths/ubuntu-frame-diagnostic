@@ -25,6 +25,9 @@ apps:
   frame-diagnostic:
     command: write-diagnostic
 
+  clear:
+    command: clear-diagnostic
+
 parts:
   write-diagnostic:
     plugin: dump
