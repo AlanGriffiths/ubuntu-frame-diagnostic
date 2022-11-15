@@ -14,7 +14,6 @@ architectures:
 plugs:
   ubuntu-frame-diagnostic:
     interface: content
-    content: writable-data
     target: $SNAP_COMMON/diagnostic
     default-provider: ubuntu-frame
 
